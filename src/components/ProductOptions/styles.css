@@ -1,0 +1,6 @@
+.options { display: flex; flex-wrap: wrap; gap: 12px; }
+.options__item { border: 1px solid var(--light-gray-2); background: var(--white); color: var(--dark-gray-2); font-size: 16px; font-weight: 700; }
+.options__item--text { min-width: 40px; height: 40px; padding: 0 12px; }
+.options__item--text.is-selected { background: var(--primary); border-color: var(--primary); color: var(--white); }
+.options__item--color { width: 31px; height: 31px; padding: 0; border: 0; }
+.options__item--color.is-selected { outline: 2px solid var(--primary); outline-offset: 2px; }

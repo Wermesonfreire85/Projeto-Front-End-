@@ -1,0 +1,16 @@
+.home__hero-bg { background: var(--light-gray-3); }
+.home__hero { margin: 0 auto; }
+.hero { height: 100%; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 40px; padding: 0 100px; }
+.hero__text span { font-size: 16px; font-weight: 700; color: var(--warning); }
+.hero__text h1 { margin: 16px 0 24px; font-size: 56px; line-height: 1.1; color: var(--dark-gray-2); max-width: 420px; }
+.hero__text p { max-width: 400px; font-size: 14px; line-height: 1.6; color: var(--dark-gray-3); }
+.hero__button { display: inline-flex; align-items: center; justify-content: center; margin-top: 32px; width: 216px; height: 48px; border-radius: 4px; background: var(--primary); color: var(--white); font-size: 14px; font-weight: 700; }
+.hero__image { position: relative; display: flex; justify-content: center; align-items: center; height: 100%; }
+.hero__image::before { content: ''; position: absolute; top: 18%; right: 0; width: 140px; height: 140px; background-image: radial-gradient(var(--warning) 1.5px, transparent 1.6px); background-size: 12px 12px; opacity: 0.6; }
+.hero__image img { position: relative; width: 100%; max-height: 100%; transform: rotate(-30deg); object-fit: contain; }
+.home__collections { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+.collection { position: relative; border-radius: 4px; overflow: hidden; }
+.collection img { width: 100%; }
+.collection__badge { position: absolute; top: 9%; left: 7%; background: var(--badge); color: var(--dark-gray-2); font-size: 12px; font-weight: 700; padding: 4px 12px; border-radius: 4px; }
+.collection__button { position: absolute; top: 64%; left: 7%; width: 100px; height: 34px; display: flex; align-items: center; justify-content: center; background: var(--white); color: var(--primary); font-size: 13px; font-weight: 700; border-radius: 4px; }
+@media (max-width: 900px) { .hero { grid-template-columns: 1fr; padding: 24px; } .hero__text h1 { font-size: 40px; } }

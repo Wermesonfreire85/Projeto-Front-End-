@@ -1,0 +1,4 @@
+.breadcrumb { padding-top: 24px; font-size: 12px; color: var(--dark-gray-3); }
+.breadcrumb i { font-style: normal; margin: 0 4px; }
+.breadcrumb strong { font-weight: 400; color: var(--dark-gray); }
+.breadcrumb a:hover { text-decoration: underline; }

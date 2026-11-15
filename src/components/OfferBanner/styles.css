@@ -1,0 +1,10 @@
+.offer { background: var(--white); margin-top: 72px; }
+.offer__grid { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 48px; min-height: 553px; }
+.offer__image { position: relative; display: flex; justify-content: center; align-items: center; min-height: 360px; }
+.offer__image::before { content: ''; position: absolute; width: 340px; height: 340px; border-radius: 50%; background: radial-gradient(circle at 50% 30%, #E4DDFF, #F9F8FE 75%); }
+.offer__image img { position: relative; width: 100%; max-width: 520px; }
+.offer__text span { font-size: 12px; font-weight: 700; color: var(--primary); }
+.offer__text h2 { margin: 8px 0 16px; max-width: 420px; font-size: 40px; line-height: 1.15; color: var(--dark-gray-2); }
+.offer__text p { max-width: 460px; font-size: 14px; line-height: 1.6; color: var(--dark-gray-3); }
+.offer__button { display: inline-flex; align-items: center; justify-content: center; margin-top: 24px; width: 200px; height: 40px; border-radius: 4px; background: var(--primary); color: var(--white); font-size: 14px; font-weight: 700; }
+@media (max-width: 800px) { .offer__grid { grid-template-columns: 1fr; padding: 32px 0; } }

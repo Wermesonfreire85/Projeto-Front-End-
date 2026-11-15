@@ -1,0 +1,7 @@
+.section { margin-top: 56px; }
+.section__head { display: flex; align-items: center; margin-bottom: 24px; }
+.section__head h2 { font-size: 24px; font-weight: 700; color: var(--dark-gray-2); }
+.section__head--left { justify-content: space-between; }
+.section__head--center { justify-content: center; }
+.section__link { font-size: 18px; color: var(--primary); }
+.section__head--center .section__link { margin-left: auto; }

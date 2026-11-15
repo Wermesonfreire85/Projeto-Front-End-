@@ -1,0 +1,5 @@
+.categories { list-style: none; display: flex; justify-content: center; gap: 52px; flex-wrap: wrap; }
+.categories a { display: grid; justify-items: center; gap: 12px; color: var(--light-gray); }
+.categories a.is-active { color: var(--primary); }
+.categories__icon { width: 90px; height: 90px; border-radius: 50%; background: var(--white); display: flex; align-items: center; justify-content: center; }
+.categories__label { font-size: 12px; font-weight: 700; color: var(--dark-gray-2); }

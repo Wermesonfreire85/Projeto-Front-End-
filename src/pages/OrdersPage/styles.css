@@ -1,0 +1,6 @@
+.orders__tabs { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+.orders__tabs button { height: 40px; padding: 0 20px; border: 1px solid var(--light-gray-2); border-radius: 4px; background: var(--white); font-size: 14px; color: var(--dark-gray-2); }
+.orders__tabs button.is-active { background: var(--primary); border-color: var(--primary); color: var(--white); font-weight: 700; }
+.orders__list { display: grid; gap: 24px; }
+.orders__empty { display: grid; justify-items: center; gap: 16px; padding: 64px 16px; background: var(--white); border-radius: 8px; color: var(--dark-gray-3); }
+.orders__empty a { display: inline-flex; align-items: center; justify-content: center; width: 200px; height: 40px; border-radius: 4px; background: var(--primary); color: var(--white); font-size: 14px; font-weight: 700; }

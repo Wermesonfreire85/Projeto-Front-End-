@@ -1,0 +1,6 @@
+.categories-page { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; }
+.categories-page a { display: grid; justify-items: center; gap: 12px; padding: 32px 16px; background: var(--white); border-radius: 8px; border: 1px solid transparent; transition: border-color 0.2s; }
+.categories-page a:hover { border-color: var(--primary); }
+.categories-page__icon { width: 90px; height: 90px; border-radius: 50%; background: var(--light-gray-3); color: var(--primary); display: flex; align-items: center; justify-content: center; }
+.categories-page h3 { font-size: 18px; color: var(--dark-gray-2); }
+.categories-page__link { font-size: 14px; color: var(--primary); }

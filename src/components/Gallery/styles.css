@@ -1,0 +1,15 @@
+.gallery__frame { position: relative; overflow: hidden; }
+.gallery__track { display: flex; height: 100%; transition: transform 0.4s ease; }
+.gallery__track > img { flex: 0 0 100%; width: 100%; height: 100%; object-fit: cover; }
+.gallery__slide { flex: 0 0 100%; height: 100%; }
+.gallery__arrow { position: absolute; top: 50%; transform: translateY(-50%); background: transparent; border: 0; padding: 12px; }
+.gallery__arrow--left { left: 16px; }
+.gallery__arrow--right { right: 16px; }
+.gallery__arrow:disabled { opacity: 0.3; cursor: not-allowed; }
+.gallery__dots { position: absolute; bottom: 24px; left: 0; right: 0; display: flex; justify-content: center; gap: 10px; }
+.gallery__dots button { width: 8px; height: 8px; padding: 0; border: 0; border-radius: 50%; background: var(--light-gray-2); }
+.gallery__dots button.is-active { background: var(--primary); }
+.gallery__thumbs { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+.gallery__thumbs button { border: 2px solid transparent; padding: 0; overflow: hidden; }
+.gallery__thumbs button.is-selected { border-color: var(--primary); }
+.gallery__thumbs img { display: block; }
